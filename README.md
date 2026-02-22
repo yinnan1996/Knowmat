@@ -39,9 +39,7 @@ Execution follows a **topological order**: nodes with zero in-degree run first; 
 - **Retry**: Each tool supports configurable retries; success probability $P_s = 1 - p_f^{R+1}$ after $R+1$ attempts
 - **Re-planning**: On persistent failure, partial results $R$ are given to the LLM to regenerate a corrected DAG, allowing continuation without full restart
 
-### Final Summarization
 
-$$\text{final\_answer} = \mathrm{LLM\_Summarize}(\text{user\_query}, R)$$
 
 ---
 
