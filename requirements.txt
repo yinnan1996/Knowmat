@@ -1,0 +1,21 @@
+# KnowMat - Dependency-aware Dynamic Planning for Material Design
+# Core
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# MCP (Model Context Protocol)
+mcp>=1.7.0
+
+# LLM
+openai>=1.0.0
+
+# Database
+psycopg2-binary>=2.9.0
+
+# For γ' solvus temperature prediction (svr-regressor) - pin for model compatibility
+scikit-learn>=1.3.0,<1.4.0
+joblib>=1.4.0
+numpy>=1.24.0
+pandas>=2.0.0

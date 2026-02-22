@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+*.env
+!*.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Trained models (svr_regressor.bin, solvus.csv included for γ' solvus demo)
+backend/src/models/*.joblib
+
+# Vector index storage (regenerated on setup)
+backend/src/vector_index/storage/*.json
+backend/src/models_index/
+backend/src/models_index/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
