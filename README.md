@@ -1,4 +1,4 @@
-# KnowMat: Dependency-aware Dynamic Planning for Material Design
+# KnowMat: An AI-Guided Material Design Agent with Knowledge-Integrated Tool Learning Mechanisms
 
 KnowMat is a material design reasoning system that uses **dependency-aware dynamic planning** to guide multi-step workflows. The core algorithm constructs explicit dependency graphs (DAGs) to ensure task decomposition, tool invocation, and intermediate data flow follow clear and verifiable dependencies.
 
